@@ -8,7 +8,6 @@ angular.module('video-player')
         this.currentVideo = video;
       };
       this.searchResults = (videos) => {
-        console.log('search results called');
         this.videos = videos;
         this.currentVideo = videos[0];
       };
