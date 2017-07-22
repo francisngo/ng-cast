@@ -1,7 +1,7 @@
 angular.module('video-player')
 
   .component('app', {
-    controller: function(youtube) {
+    controller: function(youTube) {
       this.videos = [];
       this.currentVideo = null;
       this.selectVideo = (video) => {
