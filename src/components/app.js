@@ -3,10 +3,7 @@ angular.module('video-player')
     controller: function() {
       this.videos = window.exampleVideoData;
       this.currentVideo = window.exampleVideoData[0];
-      // this.onClick = function(video) {
-      //   console.table(video);
-      // };
-      this.selectVideo = function(video) {
+      this.selectVideo = (video) => {
         console.log('selected video');
         this.currentVideo = video;
       };
